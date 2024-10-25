@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo"><small>GCD</small></div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:chandradasgopal11@gmail.com" class="button"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi Myself</small>
+              Gopal Chandra Das
+            </h1>
+            <p>
+              MERN Stack Developer with hands-on experience gained from academic
+              projects.
+            </p>
+            <div class="call-to-action">
+              <a href="./GopalChandraDasResume.pdf" class="button black">
+                View Resume
+              </a>
+              <a href="mailto:chandradasgopal11@gmail.com" class="button white">
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Gopalchdas">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a href="https://www.linkedin.com/in/gopaldas011/">
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+			<img src="./imgs/MongoDB.png" alt="HTML" width="128" />
+            <img src="./imgs/NodeJs.png" alt="CSS" width="128" />
+            <img src="./imgs/Express.png" alt="JS" width="128" />
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+			<img src="./imgs/MongoDB.png" alt="HTML" width="128" />
+            <img src="./imgs/NodeJs.png" alt="CSS" width="128" />
+            <img src="./imgs/Express.png" alt="JS" width="128" />
+            
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node JS</li>
+              <li>Express JS</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              Aspiring MERN Stack Developer with hands-on experience gained from
+              academic projects. Proficient in MongoDB, Express.js, React.js,
+              and Node.js, along with a strong grasp of HTML, CSS, and
+              JavaScript. Eager to leverage my skills in building responsive,
+              dynamic web applications.
+            </p>
+            <p>
+              Known for my problem-solving abilities, quick learning aptitude,
+              and passion for coding. Ready to contribute to a dynamic team and
+              grow within the tech industry by staying updated with the latest
+              trends and best practices.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="projects" class="bento container">
+        <h2>
+          <small> Previous </small>
+          Completed Projects
+        </h2>
+        <div class="bento-grid">
+          <a href="https://github.com/Gopalchdas/HOSPITAL_MANAGEMENT_SYSTEM" class="bento-item">
+            <img src="./imgs/hms.png" alt="BGCCI" width="100%" />
+          </a>
+          <a href="https://github.com/Gopalchdas/LandingPage_mooana" class="bento-item">
+            <img src="./imgs/landingpage-mooala.png" alt="landingpage-mooala" width="100%" />
+          </a>
+         
+          <a href="https://github.com/Gopalchdas/E-Commerce" class="bento-item">
+            <img src="./imgs/e-comm.png" alt="Bunbury" width="100%" />
+          </a>
+         
+        </div>
+      </section>
+      
+    </main>
+  </body>
+</html>
